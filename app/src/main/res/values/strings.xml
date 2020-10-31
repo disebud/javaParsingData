@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">inventory</string>
+    <string name="aplikasi_inventory_barang">APLIKASI INVENTORY BARANG</string>
+    <string name="selamat_datang">Selamat datang di aplikasi Inventory barang,\n Silahkan pilih menu yang ada di bawah ini.</string>
+</resources>

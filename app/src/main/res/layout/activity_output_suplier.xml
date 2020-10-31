@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    tools:context=".outputSuplier">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUTPUT SUPPLIER"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="45dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="50dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="KODE SUPPLIER "
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0000000000000"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingStart="10dp"
+                    android:id="@+id/tv_kode_sup"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="NAMA SUPPLIER "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SIAPA"
+                    android:paddingStart="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_nama_sup"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="KONTAK SUPPLIER "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:text="08121314"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_kontak_sup"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="ALAMAT SUPPLIER "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:text="Jakarta"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_alamat_sup"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_ke_input_brg"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="KEMBALI KE INPUT SUPPLIER"
+                android:textColor="#0055FF"
+                android:onClick="backToInputSup"
+                android:backgroundTint="#BDBDBD" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
